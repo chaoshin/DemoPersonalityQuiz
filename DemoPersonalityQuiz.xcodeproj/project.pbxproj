@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		A0453536208EC04A00EF0EAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0453535208EC04A00EF0EAC /* AppDelegate.swift */; };
-		A0453538208EC04A00EF0EAC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0453537208EC04A00EF0EAC /* ViewController.swift */; };
+		A0453538208EC04A00EF0EAC /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0453537208EC04A00EF0EAC /* IntroductionViewController.swift */; };
 		A045353B208EC04A00EF0EAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0453539208EC04A00EF0EAC /* Main.storyboard */; };
 		A045353D208EC04C00EF0EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A045353C208EC04C00EF0EAC /* Assets.xcassets */; };
 		A0453540208EC04C00EF0EAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A045353E208EC04C00EF0EAC /* LaunchScreen.storyboard */; };
+		A0453548208EC58E00EF0EAC /* genkai-mincho.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A0453547208EC58E00EF0EAC /* genkai-mincho.ttf */; };
+		A045354A208ED2D600EF0EAC /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0453549208ED2D600EF0EAC /* QuestionViewController.swift */; };
+		A045354C208ED30700EF0EAC /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045354B208ED30700EF0EAC /* ResultsViewController.swift */; };
+		A045354E208EDECB00EF0EAC /* QuestionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A045354D208EDECB00EF0EAC /* QuestionData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A0453532208EC04A00EF0EAC /* DemoPersonalityQuiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPersonalityQuiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0453535208EC04A00EF0EAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0453537208EC04A00EF0EAC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0453537208EC04A00EF0EAC /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
 		A045353A208EC04A00EF0EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A045353C208EC04C00EF0EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A045353F208EC04C00EF0EAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0453541208EC04C00EF0EAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0453547208EC58E00EF0EAC /* genkai-mincho.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "genkai-mincho.ttf"; sourceTree = "<group>"; };
+		A0453549208ED2D600EF0EAC /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		A045354B208ED30700EF0EAC /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		A045354D208EDECB00EF0EAC /* QuestionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		A0453534208EC04A00EF0EAC /* DemoPersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				A0453547208EC58E00EF0EAC /* genkai-mincho.ttf */,
 				A0453535208EC04A00EF0EAC /* AppDelegate.swift */,
-				A0453537208EC04A00EF0EAC /* ViewController.swift */,
+				A0453537208EC04A00EF0EAC /* IntroductionViewController.swift */,
 				A0453539208EC04A00EF0EAC /* Main.storyboard */,
+				A045354D208EDECB00EF0EAC /* QuestionData.swift */,
+				A0453549208ED2D600EF0EAC /* QuestionViewController.swift */,
+				A045354B208ED30700EF0EAC /* ResultsViewController.swift */,
 				A045353C208EC04C00EF0EAC /* Assets.xcassets */,
 				A045353E208EC04C00EF0EAC /* LaunchScreen.storyboard */,
 				A0453541208EC04C00EF0EAC /* Info.plist */,
@@ -125,6 +137,7 @@
 				A0453540208EC04C00EF0EAC /* LaunchScreen.storyboard in Resources */,
 				A045353D208EC04C00EF0EAC /* Assets.xcassets in Resources */,
 				A045353B208EC04A00EF0EAC /* Main.storyboard in Resources */,
+				A0453548208EC58E00EF0EAC /* genkai-mincho.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0453538208EC04A00EF0EAC /* ViewController.swift in Sources */,
+				A0453538208EC04A00EF0EAC /* IntroductionViewController.swift in Sources */,
 				A0453536208EC04A00EF0EAC /* AppDelegate.swift in Sources */,
+				A045354E208EDECB00EF0EAC /* QuestionData.swift in Sources */,
+				A045354A208ED2D600EF0EAC /* QuestionViewController.swift in Sources */,
+				A045354C208ED30700EF0EAC /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
